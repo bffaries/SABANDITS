@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    margin-bottom: 1px;
+    margin-top: 10px;
+    margin-block-start: 19px;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-stretch:narrower;
+    color: black;
+    text-align: center;
+}
+
+body{
+    height: 100%;
+    
+}
+
+.menu-btn{
+    color: #424144;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+    
+    
+}
+
+.navbar{
+    padding: 5px 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    z-index: 999;
+    background-color: #f3f4f6;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
+
+}
+
+.navbar .logo h1{
+    color: #424144;
+    border-bottom: 4px solid pink;
+
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;  
+    
+}
+
+.navbar .menu li a{
+    display: block;
+    margin-left: 20px;
+    color: #424144;
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:bolder;
+    
+}
+
+.navbar .menu li .active{
+    border-bottom: 4px solid pink;
+   
+}
+
+.navbar .menu li a i{ 
+    color: rgb(0, 0, 0); 
+    
+}
+
+.navbar .menu li a:hover{
+    border-bottom: 4px solid pink;
+}
+
+.content h1{
+    font-size: 45px;
+    
+}
+
+.content button{
+    margin-top: 30px;
+    padding: 15px 30px;
+    border: none;
+    background: pink;
+    color: white;
+    font-size: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    padding-inline-start: 20px;
+}
+
+.pheading{
+    text-align: center;
+    margin: 30px;
+    color: #000000;
+    text-decoration: underline
+  
+}
+
+table {
+    width: 100%;
+    background-color: pink;
+    border-collapse: var(); color: rgb(0, 0, 0);
+    border-style: groove;
+    margin-top: 30px;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    
+}
+
+th, td {
+    border: 1px solid #ffffff;
+    background-color: pink;
+    border-radius: 23;
+    padding: 20px;
+    text-align: center;
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    font-weight: bold;
+   
+}
+th {
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.checkout-btn{
+    margin-top: 5;
+    border:ridge;
+    background-color: pink;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 3px;
+    border-width: 3px;
+    border-color: black;
+    margin: 10px;
+    margin-left: 555px;
+    margin-right: 555px;
+}
+.option-btn{
+    
+    border:ridge;
+    background-color: pink;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 5px;
+    border-width: 3px;
+    border-color: black;
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 9px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+
+}
+.delete-btn{
+    border-style: ridge;
+    border-radius: 10px;
+    padding-top: 9px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-color: whitesmoke;
+    background-color: antiquewhite;
+   
+}
