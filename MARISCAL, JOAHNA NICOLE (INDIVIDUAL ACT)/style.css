@@ -1,0 +1,49 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 1;
+}
+
+/* Global styles */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #ecf0f1;
+    color: #add8dd;
+    line-height: 2;
+    margin: 0;
+    padding: 0; 
+}
+
+header {
+    text-align: center;
+    padding: 130px;
+    background: url('bgsafront.jpg') no-repeat;
+    color: #ffffff;
+}
+header img {
+    max-width: 250px;
+    height: auto;
+}
+div {
+    text-align: center;
+}
+
+#projects {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+
+}
