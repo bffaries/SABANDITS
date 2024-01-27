@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+header {
+    text-align: center;
+    padding: 65px;
+    background: url('MaryS.JPG') no-repeat;
+    color: #e6bd08e0;
+}
+header img {
+    max-width: 240px;
+    height: 280px;
+}
+
+body{
+    font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+    color: #e6bd08e0;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    width: 1200px;
+    margin-top: 0px;
+    border-collapse: calc();
+    font-size: 16px;
+    justify-content: center;
+}
+
+tr, td{
+    padding: 20px 23px;
+    text-align: center;
+}
+
+
+
+
