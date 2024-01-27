@@ -1,0 +1,48 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0; 
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    background: url('bg.jpg') no-repeat;;
+    color: #fff;
+}
+header img {
+    max-width: 150px;
+    height: auto;
+}
+div {
+    text-align: center;
+}
+
+#projects {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}

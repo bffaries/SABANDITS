@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+header {
+    text-align: center;
+    padding: 50px; 
+    background: url('bg.jpg') no-repeat;
+    color: #fff;
+}
+header img {
+    max-width: 250px;
+    height: auto;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #343a40;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    width: 1000px;
+    margin-top: 100px;
+    border-collapse: collapse;
+    font-size: 18px;
+    justify-content: center;
+}
+
+tr, td{
+    padding: 16px 24px;
+    text-align: center;
+}
+
+
+
+
